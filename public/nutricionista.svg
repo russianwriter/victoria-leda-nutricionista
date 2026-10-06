@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" fill="none" role="img" aria-label="Espaço reservado para a foto da nutricionista">
+  <defs>
+    <linearGradient id="scrub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFB4A2" />
+      <stop offset="100%" stop-color="#F58B77" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7C9B6" />
+      <stop offset="100%" stop-color="#EFB49C" />
+    </linearGradient>
+  </defs>
+
+  <!-- hair -->
+  <path d="M120 150c0-62 36-104 80-104s80 42 80 104v46H120v-46Z" fill="#3B241F" />
+  <path d="M120 152c-6 66 2 118 16 150l-30 6c-20-52-24-112-14-164l28 8Z" fill="#3B241F" />
+  <path d="M280 152c6 66-2 118-16 150l30 6c20-52 24-112 14-164l-28 8Z" fill="#3B241F" />
+
+  <!-- neck -->
+  <rect x="178" y="250" width="44" height="56" rx="20" fill="url(#skin)" />
+
+  <!-- face -->
+  <path d="M136 152c0-16 18-28 64-28s64 12 64 28v56c0 48-28 84-64 84s-64-36-64-84v-56Z" fill="url(#skin)" />
+  <!-- hair fringe -->
+  <path d="M130 156c10-34 34-52 70-52s60 18 70 52c-22-14-44-20-70-20s-48 6-70 20Z" fill="#3B241F" />
+
+  <!-- eyes + smile -->
+  <ellipse cx="172" cy="186" rx="6" ry="7" fill="#3B241F" />
+  <ellipse cx="228" cy="186" rx="6" ry="7" fill="#3B241F" />
+  <path d="M180 222c10 12 30 12 40 0" stroke="#B4564A" stroke-width="6" stroke-linecap="round" />
+
+  <!-- scrub / body -->
+  <path d="M104 620v-190c0-64 44-104 96-104s96 40 96 104v190H104Z" fill="url(#scrub)" />
+  <path d="M200 326c-14 34-14 60 0 96 14-36 14-62 0-96Z" fill="#fff" opacity=".45" />
+
+  <!-- stethoscope -->
+  <path d="M156 356c0 46 20 70 44 70s44-24 44-70" stroke="#1C6B3C" stroke-width="9" stroke-linecap="round" />
+  <path d="M140 340v18a18 18 0 0 0 18 18" stroke="#1C6B3C" stroke-width="9" stroke-linecap="round" />
+  <circle cx="246" cy="452" r="18" fill="#E63946" stroke="#1C6B3C" stroke-width="8" />
+
+  <!-- leaf badge -->
+  <path d="M300 300c26-22 54-18 62-8-8 26-32 40-56 34-2-10-4-18-6-26Z" fill="#2E9E5B" />
+</svg>

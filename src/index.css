@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Cream / watermelon base */
+    --background: 20 100% 98%;
+    --foreground: 356 35% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 356 35% 14%;
+
+    --primary: 355 78% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 11 100% 90%;
+    --secondary-foreground: 356 45% 22%;
+
+    --muted: 12 60% 95%;
+    --muted-foreground: 356 12% 42%;
+
+    --accent: 145 55% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --border: 11 60% 90%;
+    --input: 11 60% 90%;
+    --ring: 355 78% 56%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-watermelon/20 text-watermelon-dark;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grain {
+    background-image: radial-gradient(hsl(var(--foreground) / 0.045) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+}
